@@ -1,0 +1,43 @@
+.add-items-container {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.add-items-container input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+/* .add-items-container input:focus {
+  color: white;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+  caret-color: white;
+  border: 5px solid #555;
+} */
+
+.add-items-container input::placeholder {
+  color: #aaa;
+}
+
+.add-items-container button {
+  padding: 0 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-items-container button:hover {
+  background-color: #45a049;
+}
