@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SignUpPage from "./pages/SignUpPage.jsx";
-import NotFountPage from "./pages/NotFountPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import FavouritesPage from "./pages/FavouritesPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <NotFountPage />,
+    element: <NotFoundPage />,
   },
 ]);
 
